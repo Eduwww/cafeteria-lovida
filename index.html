@@ -18,221 +18,198 @@
     </div>
 </header>
 
+<!-- CONTEÚDO PRINCIPAL -->
+<main>
+
 <section id="sobre">
     <h2>☕ Sobre Nós</h2>
-    <p>
-        Somos uma cafeteria família focada em café de qualidade,
-        ambiente aconchegante e boas conversas. Venha, traga sua família e conheça nosso espaço. Se delicie com nossos produtos e volte sempre.
-    </p>
+    <p>Somos uma cafeteria família focada em café, salgado e doce de qualidade, ambiente aconchegante e boas conversas. Venha e traga sua família e conheça nosso espaço. Saboreie com nossos produtos e volte sempre.</p>
 </section>
 
 <section id="cardapio">
     <h2>📋 Cardápio</h2>
 
-    <!-- FILTROS -->
     <div class="filtros">
         <button onclick="filtrar('todos', this)" class="ativo">Todos</button>
         <button onclick="filtrar('salgado', this)">Salgados</button>
         <button onclick="filtrar('doce', this)">Doces</button>
         <button onclick="filtrar('bebida', this)">Bebidas</button>
-
     </div>
 
-    <div class="menu">
-        <!-- SALGADOS -->
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1604908554168-6b1f0c9c3cbb">
-            <h4>Pão de Queijo (Un)</h4>
-            <span>R$ 2,50</span>
+<div class="menu">
+    <div class="item salgado"> <img src="https://soubh.uai.com.br/wp-content/uploads/2025/08/yt-069_pao-de-queijo_receita.jpg">
+        <h4>Pão de Queijo (Unidade - Porção)</h4> 
+        <span>R$ 2,50/R$ 10,00</span> 
+        </div> 
+    <div class="item salgado"> <img src="https://padariasantacruz.loji.com.br/storage/uploads/06V3p1SCdxGV34Iks7azDBhASNu9fKkl0TN5LpcJ.jpeg">
+        <h4>Pão com Manteiga na Chapa</h4>
+        <span>R$ 8,00</span>   
         </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1612198790700-0ff3e07c8b86">
-            <h4>Pão de Queijo (Porção)</h4>
-            <span>R$ 10,00</span>
+    <div class="item salgado"> <img src="https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2023/07/25/whatsapp-image-2023-07-25-at-16-55-56-qhsvc9o24hgl.jpeg"> 
+        <h4>Pão com Requeijão na Chapa</h4>
+        <span>R$ 10,00</span>
+        </div> 
+    <div class="item salgado"> <img src="https://conteudo.imguol.com.br/c/entretenimento/51/2024/11/18/pao-com-ovo-1731962699130_v2_4x3.jpg"> 
+        <h4>Pão com Ovo</h4> 
+        <span>R$ 8,00</span> 
+        </div> 
+    <div class="item salgado"> <img src="https://anamariareceitas.com.br/wp-content/uploads/2024/08/ovo-mexido_1723804178265-768x432.jpg">
+        <h4>Ovo Mexido</h4> 
+        <span>R$ 12,00</span> 
         </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1604908554168-6b1f0c9c3cbb">
-            <h4>Pão com Manteiga na Chapa</h4>
-            <span>R$ 8,00</span>
+    <div class="item salgado"> <img src="https://guiadacozinha.com.br/wp-content/uploads/2015/01/misto-quente-gratinado.jpg">
+        <h4>Misto Quente</h4>
+        <span>R$ 12,00</span>
+        </div> 
+    <div class="item salgado"> <img src="https://i.ytimg.com/vi/gY4YpCyxV4Q/maxresdefault.jpg">
+        <h4>Omelete Tradicional</h4> 
+        <span>R$ 14,00</span> 
+        </div> 
+    <div class="item salgado"> <img src="https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-omelete-recheada.jpg?quality=70&strip=info&w=620"> 
+        <h4>Omelete Presunto e Mussarela</h4> 
+        <span>R$ 18,00</span> 
         </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1612198790700-0ff3e07c8b86">
-            <h4>Pão com Requeijão na Chapa</h4>
-            <span>R$ 10,00</span>
+    <div class="item salgado"> <img src="https://imagens.jotaja.com/produtos/0e81b002-2f01-4e72-8601-d584a234118e.jpg"> 
+        <h4>Omelete Peito de Peru e Queijo Branco</h4>
+        <span>R$ 22,00</span> 
         </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1604908554168-6b1f0c9c3cbb">
-            <h4>Pão com Ovo</h4>
-            <span>R$ 8,00</span>
+    <div class="item salgado"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVKT6tR7s8K5pMZZ6gV4VZX3C_jfRcjk_91g&s">
+        <h4>Tapioca Tradicional</h4>
+        <span>R$ 12,00</span> 
+        </div> 
+    <div class="item salgado"> <img src="https://www.bcnoticias.com.br/wp-content/uploads/2024/07/Depositphotos_207938522_XL-scaled.jpg">
+        <h4>Tapioca Presunto e Mussarela</h4> 
+        <span>R$ 16,00</span>
         </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1612198790700-0ff3e07c8b86">
-            <h4>Ovo Mexido</h4>
-            <span>R$ 12,00</span>
+    <div class="item salgado"> <img src="https://www.sadia.com.br/assets/images/_/recipes/4ff809a3bd19a36e032cc900e30c13c55c358bc9.JPG.webp">
+        <h4>Tapioca Peito de Peru e Queijo Branco</h4>
+        <span>R$ 20,00</span>
         </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1604908554168-6b1f0c9c3cbb">
-            <h4>Misto Quente</h4>
-            <span>R$ 12,00</span>
+    <div class="item salgado"> <img src="https://www.sabornamesa.com.br/media/k2/items/cache/9217346f41a5b7e8e45bd1d2bf97a850_XL.jpg">
+        <h4>Tapioca com Ovo</h4>
+        <span>R$ 14,00</span>
         </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1612198790700-0ff3e07c8b86">
-            <h4>Omelete Tradicional</h4>
-            <span>R$ 14,00</span>
+    <div class="item salgado"> <img src="https://s01.video.glbimg.com/x720/13043388.jpg">
+        <h4>Quiche Alho Poró com Requeijão</h4> 
+        <span>R$ 12,00</span>
+        </div> 
+    <div class="item salgado"> <img src="https://granjasantamarta.com.br/wp-content/uploads/2022/08/QUICHE-1024x576.jpg"> 
+        <h4>Quiche Mussarela com Bacon</h4>
+        <span>R$ 12,00</span> 
+        </div> 
+    <div class="item salgado"> <img src="https://cdn0.tudoreceitas.com/pt/posts/7/8/1/empadinha_de_frango_cremosa_9187_orig.jpg">
+        <h4>Empada Frango com Requeijão</h4>
+        <span>R$ 10,00</span> 
+        </div> 
+    <div class="item salgado"> <img src="https://sabores-new.s3.amazonaws.com/public/2024/11/empadinhas-de-palmito.jpg">
+        <h4>Empada Palmito Cremoso</h4>
+        <span>R$ 10,00</span> 
         </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1604908554168-6b1f0c9c3cbb">
-            <h4>Omelete Presunto e Mussarela</h4>
-            <span>R$ 18,00</span>
-        </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1612198790700-0ff3e07c8b86">
-            <h4>Omelete Peito de Peru e Queijo Branco</h4>
-            <span>R$ 22,00</span>
-        </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1604908554168-6b1f0c9c3cbb">
-            <h4>Tapioca Tradicional</h4>
-            <span>R$ 12,00</span>
-        </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1612198790700-0ff3e07c8b86">
-            <h4>Tapioca Presunto e Mussarela</h4>
-            <span>R$ 16,00</span>
-        </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1604908554168-6b1f0c9c3cbb">
-            <h4>Tapioca Peito de Peru e Queijo Branco</h4>
-            <span>R$ 20,00</span>
-        </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1612198790700-0ff3e07c8b86">
-            <h4>Tapioca com Ovo</h4>
-            <span>R$ 14,00</span>
-        </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1604908554168-6b1f0c9c3cbb">
-            <h4>Quiche Alho Poró com Requeijão</h4>
-            <span>R$ 12,00</span>
-        </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1612198790700-0ff3e07c8b86">
-            <h4>Quiche Mussarela com Bacon</h4>
-            <span>R$ 12,00</span>
-        </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1604908554168-6b1f0c9c3cbb">
-            <h4>Empada Frango com Requeijão</h4>
-            <span>R$ 10,00</span>
-        </div>
-
-        <div class="item salgado">
-            <img src="https://images.unsplash.com/photo-1612198790700-0ff3e07c8b86">
-            <h4>Empada Palmito Cremoso</h4>
-            <span>R$ 10,00</span>
-        </div>
-
+    
         <!-- DOCES -->
-        <div class="item doce">
-            <img src="https://images.unsplash.com/photo-1601972599722-c9c4c1a7a0e2">
-            <h4>Bolo com Recheio</h4>
-            <span>R$ 15,00</span>
-        </div>
 
-        <div class="item doce">
-            <img src="https://images.unsplash.com/photo-1542826438-4d4c5e2f2c0f">
-            <h4>Bolo sem Recheio</h4>
-            <span>R$ 7,00</span>
+    <div class="item doce"> <img src="https://anamariareceitas.com.br/wp-content/uploads/2022/11/Bolo-especial-com-recheio-trufado-1.jpg">
+        <h4>Bolo com Recheio</h4>
+        <span>R$ 15,00</span>
         </div>
+     <div class="item doce"> <img src="https://www.receitasonline.com.br/wp-content/uploads/bolo-simples-caseiro.jpg">
+        <h4>Bolo sem Recheio</h4> 
+        <span>R$ 7,00</span> 
+        </div> 
+    <div class="item doce"> <img src="https://recipesblob.oetker.com.br/assets/0bcd1cdbc61c4bd59dcb4ceb8910fcc6/1272x764/bolo-gelado-de-coco-com-chocolate.jpg"> 
+        <h4>Bolo Gelado</h4> 
+        <span>R$ 12,00</span> 
+    </div> 
+    <div class="item doce"> <img src="https://www.receitasja.com.br/wp-content/uploads/2025/06/Petit-gateau-com-sorvete-500x375.jpg"> 
+        <h4>Petit Gâteau</h4> 
+        <span>R$ 18,00</span> 
+    </div>
+    <div class="item doce"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRumSYX3tw8js5lfE2peY330Rqi6186ulrEg&s"> 
+        <h4>Pudim (Fatia)</h4> 
+        <span>R$ 8,00</span> 
+    </div> 
+     <div class="item doce"> <img src="https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1a884bcbc5b04d71476d2995d51d0140.jpg"> 
+        <h4>Brigadeiro</h4> 
+        <span>R$ 5,00</span> 
+    </div> 
+    <div class="item doce"> <img src="https://s2-receitas.glbimg.com/_E_Co7qeIyl8JU1rJ3Yr97-oibM=/0x0:924x615/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2025/8/J/ypTHdfR7igUjcqZY8X8A/brownie-de-chocolate.jpg"> 
+        <h4>Brownie</h4> 
+        <span>R$ 10,00</span> 
+    </div> 
+    <div class="item doce"> <img src="https://guiadacozinha.com.br/wp-content/uploads/2019/11/quindim-de-padaria.jpg"> 
+        <h4>Quindim</h4> 
+        <span>R$ 10,00</span> 
+    </div> 
+    <div class="item doce"> <img src="https://www.unileverfoodsolutions.com.br/dam/global-ufs/mcos/SLA/calcmenu/recipes/BR-recipes/desserts-&-bakery/torta-holandesa/main-header.jpg"> 
+        <h4>Torta Holandesa</h4> 
+        <span>R$ 16,00</span> 
+    </div> 
+    <div class="item doce"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAN2_TznfnfTbu_MehnhKgCfMNH5gEgdV5-g&s"> 
+        <h4>Tapioca Coco e Leite Condensado</h4> 
+        <span>R$ 16,00</span> 
+    </div> 
+    <div class="item doce"> <img src="https://app.cardapiodigital.net/dnizcafeebistro/5762-large_default/morango-cnutella.jpg"> 
+        <h4>Tapioca Morango e Nutella</h4> 
+        <span>R$ 9,00</span> 
+    </div> 
+    <div class="item doce"> <img src="https://cloudfront-us-east-1.images.arcpublishing.com/estadao/CKLATGDWOZEY7NYGR2SXVVUV5A.jpg"> 
+        <h4>Cookie</h4> 
+        <span>R$ 15,00</span> 
+    </div> 
+    
+    <!-- BEBIDAS -->
 
-        <div class="item doce">
-            <img src="https://images.unsplash.com/photo-1601972599722-c9c4c1a7a0e2">
-            <h4>Bolo Gelado</h4>
-            <span>R$ 12,00</span>
-        </div>
-
-        <div class="item doce">
-            <img src="https://images.unsplash.com/photo-1542826438-4d4c5e2f2c0f">
-            <h4>Petit Gâteau</h4>
-            <span>R$ 18,00</span>
-        </div>
-
-        <div class="item doce">
-            <img src="https://images.unsplash.com/photo-1601972599722-c9c4c1a7a0e2">
-            <h4>Pudim (Fatia)</h4>
-            <span>R$ 8,00</span>
-        </div>
-
-        <div class="item doce">
-            <img src="https://images.unsplash.com/photo-1542826438-4d4c5e2f2c0f">
-            <h4>Brigadeiro</h4>
-            <span>R$ 5,00</span>
-        </div>
-
-        <div class="item doce">
-            <img src="https://images.unsplash.com/photo-1601972599722-c9c4c1a7a0e2">
-            <h4>Brownie</h4>
-            <span>R$ 10,00</span>
-        </div>
-
-        <div class="item doce">
-            <img src="https://images.unsplash.com/photo-1542826438-4d4c5e2f2c0f">
-            <h4>Quindim</h4>
-            <span>R$ 10,00</span>
-        </div>
-
-        <div class="item doce">
-            <img src="https://images.unsplash.com/photo-1601972599722-c9c4c1a7a0e2">
-            <h4>Torta Holandesa</h4>
-            <span>R$ 16,00</span>
-        </div>
-
-        <div class="item doce">
-            <img src="https://images.unsplash.com/photo-1542826438-4d4c5e2f2c0f">
-            <h4>Tapioca Coco e Leite Condensado</h4>
-            <span>R$ 16,00</span>
-        </div>
-
-        <div class="item doce">
-            <img src="https://images.unsplash.com/photo-1601972599722-c9c4c1a7a0e2">
-            <h4>Tapioca Morango e Nutella</h4>
-            <span>R$ 9,00</span>
-        </div>
-
-        <div class="item doce">
-            <img src="">
-            <h4>Cookie</h4>
-            <span>R$ 15,00</span>
-        </div>
-
-        <!-- BEBIDAS -->
-        <div class="item bebida">
-            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
-            <h4>Café Expresso</h4>
-            <span>R$ 6,00</span>
-        </div>
-
-        <div class="item bebida">
-            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
-            <h4>Cappuccino</h4>
-            <span>R$ 9,00</span>
-        </div>
+    <div class="item bebida"> <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG"> 
+        <h4>Café Coado</h4> 
+        <span>R$ 8,00</span> 
+    </div> 
+    <div class="item bebida"> <img src="https://images.ctfassets.net/0e6jqcgsrcye/6Dnzkf1ylG7IxDRG9Ez1Ia/0db4f0be1ff6199ae89afa4a0ae26687/How_to_make_a_perfect_cappuccino_at_home.jpg"> 
+        <h4>Cappuccino</h4> 
+        <span>R$ 9,00</span> 
+    </div>
+    <div class="item bebida"> <img src="https://www.estadao.com.br/resizer/v2/J72AT7Q5Y5HARFVJWKY6KALWOE.jpeg?quality=80&auth=d25c7211b66655f5b4ca57df2836a7ffd22fa65c8fef4a16ba988e3641123d1b&width=1075&height=527&focal=3441,2630"> 
+        <h4>Café Expresso</h4> 
+        <span>R$ 6,00</span> 
+    </div> 
+    <div class="item bebida"> <img src="https://images.ctfassets.net/0e6jqcgsrcye/6Dnzkf1ylG7IxDRG9Ez1Ia/0db4f0be1ff6199ae89afa4a0ae26687/How_to_make_a_perfect_cappuccino_at_home.jpg"> 
+        <h4>Cappuccino</h4> 
+        <span>R$ 9,00</span> 
+    </div>
+    <div class="item bebida"> <img src="https://www.estadao.com.br/resizer/v2/J72AT7Q5Y5HARFVJWKY6KALWOE.jpeg?quality=80&auth=d25c7211b66655f5b4ca57df2836a7ffd22fa65c8fef4a16ba988e3641123d1b&width=1075&height=527&focal=3441,2630"> 
+        <h4>Café Expresso</h4> 
+        <span>R$ 6,00</span> 
+    </div> 
+    <div class="item bebida"> <img src="https://images.ctfassets.net/0e6jqcgsrcye/6Dnzkf1ylG7IxDRG9Ez1Ia/0db4f0be1ff6199ae89afa4a0ae26687/How_to_make_a_perfect_cappuccino_at_home.jpg"> 
+        <h4>Cappuccino</h4> 
+        <span>R$ 9,00</span> 
+    </div>
+    <div class="item bebida"> <img src="https://www.estadao.com.br/resizer/v2/J72AT7Q5Y5HARFVJWKY6KALWOE.jpeg?quality=80&auth=d25c7211b66655f5b4ca57df2836a7ffd22fa65c8fef4a16ba988e3641123d1b&width=1075&height=527&focal=3441,2630"> 
+        <h4>Café Expresso</h4> 
+        <span>R$ 6,00</span> 
+    </div> 
+    <div class="item bebida"> <img src="https://images.ctfassets.net/0e6jqcgsrcye/6Dnzkf1ylG7IxDRG9Ez1Ia/0db4f0be1ff6199ae89afa4a0ae26687/How_to_make_a_perfect_cappuccino_at_home.jpg"> 
+        <h4>Cappuccino</h4> 
+        <span>R$ 9,00</span> 
+    </div>
+    <div class="item bebida"> <img src="https://www.estadao.com.br/resizer/v2/J72AT7Q5Y5HARFVJWKY6KALWOE.jpeg?quality=80&auth=d25c7211b66655f5b4ca57df2836a7ffd22fa65c8fef4a16ba988e3641123d1b&width=1075&height=527&focal=3441,2630"> 
+        <h4>Café Expresso</h4> 
+        <span>R$ 6,00</span> 
+    </div> 
+    <div class="item bebida"> <img src="https://images.ctfassets.net/0e6jqcgsrcye/6Dnzkf1ylG7IxDRG9Ez1Ia/0db4f0be1ff6199ae89afa4a0ae26687/How_to_make_a_perfect_cappuccino_at_home.jpg"> 
+        <h4>Cappuccino</h4> 
+        <span>R$ 9,00</span> 
+    </div>
+    <div class="item bebida"> <img src="https://www.estadao.com.br/resizer/v2/J72AT7Q5Y5HARFVJWKY6KALWOE.jpeg?quality=80&auth=d25c7211b66655f5b4ca57df2836a7ffd22fa65c8fef4a16ba988e3641123d1b&width=1075&height=527&focal=3441,2630"> 
+        <h4>Café Expresso</h4> 
+        <span>R$ 6,00</span> 
+    </div> 
+    <div class="item bebida"> <img src="https://images.ctfassets.net/0e6jqcgsrcye/6Dnzkf1ylG7IxDRG9Ez1Ia/0db4f0be1ff6199ae89afa4a0ae26687/How_to_make_a_perfect_cappuccino_at_home.jpg"> 
+        <h4>Cappuccino</h4> 
+        <span>R$ 9,00</span> 
+    </div>
+    <div class="item bebida"> <img src="https://www.estadao.com.br/resizer/v2/J72AT7Q5Y5HARFVJWKY6KALWOE.jpeg?quality=80&auth=d25c7211b66655f5b4ca57df2836a7ffd22fa65c8fef4a16ba988e3641123d1b&width=1075&height=527&focal=3441,2630"> 
+        <h4>Café Expresso</h4> 
+        <span>R$ 6,00</span> 
     </div>
 </section>
 
@@ -240,24 +217,71 @@
     <h2>⭐ Avaliações</h2>
 
     <div class="avaliacao">
-        <p>“Café excelente e ambiente maravilhoso.”</p>
-        <span>⭐⭐⭐⭐⭐ – Ana</span>
+        <p>“Um lugar excepcional, aconchegante e tranquilo, ambiente hiper confortável, comida excelente e saborosa, fora o atendimento muito atencioso e completo, recomendo de olhos fechados.”</p>
+        <span>⭐⭐⭐⭐⭐ – Vinícius Rafael</span>
     </div>
 
     <div class="avaliacao">
-        <p>“Sempre volto, atendimento perfeito.”</p>
-        <span>⭐⭐⭐⭐⭐ – Carlos</span>
+        <p>“O ambiente é aconchegante, as pessoas nos atendem com alegria e simpatia.
+E tudo que comemos é excelente!
+Agora o quiche de queijo com bacon e o pão de queijo, se você comer tome CUIDADO,  pode viciar 😄😄.”</p>
+        <span>⭐⭐⭐⭐⭐ – Everton Araujo</span>
+    </div>
+
+    <div class="avaliacao">
+        <p>“Simplesmente a melhor experiência que já tive em uma cafeteria! O atendimento é maravilhoso, atencioso e faz a gente se sentir em casa desde o primeiro momento. O lugar é super lindo, acolhedor e cheio de detalhes que encantam. E preciso deixar a dica: comam o bolo de chocolate! É impecável, daqueles que fazem a visita valer ainda mais a pena. Com certeza voltarei muitas vezes e recomendo para todo mundo que ama um bom café e um ambiente especial. Meu novo cantinho em Indaiatuba.”</p>
+        <span>⭐⭐⭐⭐⭐ – Giulia Passoni</span>
+    </div>
+
+    <div class="avaliacao">
+        <p>“Minha cafeteira preferida!
+Atendimento excelente, cardápio impecável, lugar super aconchegante 😍 super indico!!”</p>
+        <span>⭐⭐⭐⭐⭐ – Julia Santos</span>
+    </div>
+
+    <div class="avaliacao">
+        <p>“Nunca fui fã de tapioca, mas a Lovida mudou completamente a minha opinião. A massa que eles mesmos produzem faz toda a diferença: leve, saborosa e com a textura perfeita.
+As tapiocas são deliciosas, bem recheadas e feitas com muito cuidado. Dá pra sentir o capricho em cada detalhe.
+Atendimento excelente, ambiente lindo e uma experiência que realmente surpreende. Recomendo demais, até para quem acha que não gosta de tapioca!”</p>
+        <span>⭐⭐⭐⭐⭐ – Luana Prates</span>
+    </div>
+
+    <div class="avaliacao">
+        <p>“A tortinha de morango é simplesmente maravilhosa! Massa perfeita, recheio equilibrado e morangos fresquinhos que fazem toda a diferença.
+Da pra sentir o cuidado e o carinho em cada detalhe, da apresentação ao sabor. É daquelas sobremesas que a gente come querendo repetir. Mais um motivo para se apaixonar por essa cafeteria incrível!”</p>
+        <span>⭐⭐⭐⭐⭐ – Jamile Ferrer</span>
+    </div>
+
+    <div class="avaliacao">
+        <p>“Lugar maravilhoso! A comida saborosa e quentinha, além do atendimento super solicito e simpático.
+Amamos o lugar!”</p>
+        <span>⭐⭐⭐⭐⭐ – Heloísa Lança</span>
+    </div>
+
+    <div class="avaliacao">
+        <p>“Lugar sensacional, bom atendimento, tudo muito saboroso”</p>
+        <span>⭐⭐⭐⭐⭐ – Kelly Mendonça</span>
     </div>
 </section>
-<section id="avaliacoes">
-    <h2>📍Localização</h2>
-    <div style="display: flex; justify-content: center; width: 100%; padding: 20px 0;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.844877068131!2d-47.230905799999995!3d-23.066148000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b3c05a535ea9%3A0x778a268455f2439d!2sLovida%20cafeteria!5e0!3m2!1sen!2sbr!4v1770151927779!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-    
 
+<section id="localizacao">
+    <h2>📍 Localização</h2>
+
+    <div style="display: flex; justify-content: center; width: 100%; padding: 20px 0;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3670.8450134817645!2d-47.2334807!3d-23.066143!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b3c05a535ea9%3A0x778a268455f2439d!2sLovida%20cafeteria!5e0!3m2!1spt-BR!2sbr!4v1770413672586!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+</main>
+
+<!-- FOOTER FORA DO MAIN -->
 <footer>
-    <p>© 2026 Lovida Cafeteria • Desenvolvido por <a href="https://github.com/Eduwww" target="_blank" rel="external">Eduardo Cruz</p>
+    <p>
+        © 2026 Lovida Cafeteria • Desenvolvido por
+        <a href="https://github.com/Eduwww" target="_blank" rel="external">
+            Eduardo Cruz
+        </a>
+    </p>
 </footer>
 
 <script src="script.js"></script>
