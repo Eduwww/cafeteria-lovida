@@ -9,7 +9,6 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-/* ESTRUTURA BASE (ESSENCIAL PARA O FOOTER) */
 html, body {
     height: 100%;
 }
@@ -17,8 +16,78 @@ html, body {
 body {
     background: rgba(26, 45, 41, 1);
     color: white;
-   
 }
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.share img {
+    width: 32px;
+    filter: brightness(0) saturate(100%) invert(48%) sepia(89%)
+            saturate(500%) hue-rotate(140deg);
+}
+
+.share img:hover {
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
+
+.share {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    gap: 16px;
+    z-index: 2;
+}
+
+.share {
+    position: absolute;
+    top: 25px;          /* distância do topo */
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 16px;
+    z-index: 10;
+}
+
+.share a {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.share img {
+    width: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.share a:hover {
+    transform: scale(1.15);
+    background: #c7a17a; /* cor do seu botão */
+}
+
 
 main {
     flex: 1;
@@ -26,18 +95,20 @@ main {
 
 /* HERO */
 .hero {
-    height: 100vh;
-    background: linear-gradient(
-        rgba(0,0,0,0.6),
-        rgba(0,0,0,0.6)
-    ),
-   url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover;
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("imagens/fachada.png") center/cover no-repeat;
+
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #fff;
 }
+
+
 
 .hero h1 {
     font-size: 2.2rem;
@@ -146,7 +217,7 @@ footer {
 }
 
 footer a {
-    color: #9b6bff;
+    color: #C0A352;
     text-decoration: none;
 }
 
