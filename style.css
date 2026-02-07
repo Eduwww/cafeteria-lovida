@@ -20,24 +20,6 @@ body {
 
 
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-}
-
-
-.share img {
-    width: 32px;
-    filter: brightness(0) saturate(100%) invert(48%) sepia(89%)
-            saturate(500%) hue-rotate(140deg);
-}
-
 .share img:hover {
     filter: brightness(0) invert(1);
     cursor: pointer;
@@ -45,21 +27,9 @@ html, body {
 
 .share {
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    display: flex;
-    gap: 16px;
-    z-index: 2;
-}
-
-.share {
-    position: absolute;
-    top: 25px;          /* distância do topo */
-    left: 50%;
-    transform: translateX(-50%);
-
     display: flex;
     gap: 16px;
     z-index: 10;
