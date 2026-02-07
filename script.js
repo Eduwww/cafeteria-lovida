@@ -13,3 +13,4 @@ function filtrar(categoria, botao) {
         }
     });
 }
+
